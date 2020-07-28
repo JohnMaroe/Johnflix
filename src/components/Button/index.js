@@ -17,7 +17,7 @@ const Button = styled.button`
 
     &:hover,
     &:focus {
-    opacity: .5;
+        opacity: .75;
     }
 `;
 
