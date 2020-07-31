@@ -74,7 +74,6 @@ const Input = styled.input`
 function FormField({
   label, type, name, value, onChange,
 }) {
-  const fieldId = `id_${name}`;
   const isTextArea = type === 'textarea';
   const tag = isTextArea ? 'textarea' : 'input';
 
@@ -83,7 +82,6 @@ function FormField({
       <Label>
         <Input
           as={tag}
-          id={fieldId}
           type={type}
           value={value}
           name={name}
