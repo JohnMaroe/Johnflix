@@ -88,7 +88,7 @@ function FormField({
           value={value}
           name={name}
           onChange={onChange}
-          />
+        />
         <Label.Text>
             {label}
             :
